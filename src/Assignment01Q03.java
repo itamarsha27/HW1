@@ -7,7 +7,7 @@ public class Assignment01Q03 {
         int numOdd = 0;
         int prev1 = 1;
         int prev2 = 1;
-        int curr_fib_num = 0;
+        int curr_fib_num;
         for (int i = 0; i < x; i++) {
             if (i <= 1) {
                 System.out.print(prev1);
